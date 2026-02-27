@@ -1,0 +1,16 @@
+# ── Core Telegram library (async) ─────────────────────────────────────────────
+python-telegram-bot[job-queue]==21.6.1
+
+# ── TikTok / video downloader ─────────────────────────────────────────────────
+yt-dlp>=2024.11.4          # Keep updated — TikTok changes APIs frequently
+
+# ── Config / environment ──────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Audio processing (required for MP3 extraction via yt-dlp) ────────────────
+# FFmpeg must also be installed on the host system (see README)
+# No Python package needed — yt-dlp calls the ffmpeg binary directly
+
+# ── Optional: faster HTTP (uncomment if your host supports it) ────────────────
+# httpx>=0.27.0
+# aiohttp>=3.10.0
