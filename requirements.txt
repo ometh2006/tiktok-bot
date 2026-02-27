@@ -1,5 +1,5 @@
 # ── Core Telegram library (async) ─────────────────────────────────────────────
-python-telegram-bot[job-queue]==21.6.1
+python-telegram-bot[job-queue]==21.6
 
 # ── TikTok / video downloader ─────────────────────────────────────────────────
 yt-dlp>=2024.11.4          # Keep updated — TikTok changes APIs frequently
